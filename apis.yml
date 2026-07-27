@@ -1,8 +1,27 @@
 aid: improbable
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/improbable.png
 name: Improbable
-description: Improbable is a company surfaced as a portfolio company of a16z, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: |-
+  Improbable (Improbable Worlds Ltd) is a London-based technology company and venture builder. Founded
+  in 2012, it originally built SpatialOS, a distributed simulation and networking platform for large-scale
+  real-time multiplayer games, and later Morpheus / M² (MSquared), a network of interoperable metaverse
+  worlds. Today Improbable operates primarily as a venture builder and capital allocator, partnering with
+  founders to launch and scale companies across AI, Web3 and the metaverse. It is backed by Andreessen
+  Horowitz (a16z) and the SoftBank Vision Fund. Its historical developer surface centered on the SpatialOS
+  Platform SDK, Worker SDK and the `spatial` CLI (distributed via NuGet), plus the improbable-eng and
+  spatialos GitHub organizations; the standalone documentation, status and IMS subdomains have since been
+  retired as the company pivoted away from a standalone developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/improbable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +32,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Builder
+- Metaverse
+- Gaming
+- Simulation
+- Multiplayer
+- Web3
+- Infrastructure
+- SDK
+- London
 apis: []
+common:
+- type: Website
+  url: https://www.improbable.io/
+- type: News
+  url: https://www.improbable.io/news
+- type: Support
+  url: https://www.improbable.io/contact
+- type: TermsOfService
+  url: https://www.improbable.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.improbable.io/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/improbable-eng
+- type: Packages
+  url: packages/improbable-packages.yml
+- type: SDKs
+  url: packages/improbable-packages.yml
+- type: DomainSecurity
+  url: security/improbable-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

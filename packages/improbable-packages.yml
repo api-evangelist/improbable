@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.nuget.org/packages/Improbable.SpatialOS.Platform/
+note: >-
+  First-party SpatialOS client libraries published by Improbable. These are LEGACY
+  artifacts from the SpatialOS platform era; the flagship Improbable.SpatialOS.Platform
+  package is now unlisted on NuGet and the latest release is a prerelease (15.0.0-alpha1).
+  Recorded for historical accuracy. Improbable's current (venture-builder) business ships
+  no active public client SDK.
+packages:
+- language: csharp
+  registry: nuget
+  name: Improbable.SpatialOS.Platform
+  url: https://www.nuget.org/packages/Improbable.SpatialOS.Platform/
+  install: dotnet add package Improbable.SpatialOS.Platform --version 15.0.0-alpha1
+  official: true
+  status: unlisted
+  latest_version: 15.0.0-alpha1
+  description: >-
+    Platform C# SDK for interacting with the SpatialOS Platform (deployment and
+    snapshot services). Targets .NET Standard 2.1.
