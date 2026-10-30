@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Improbable is a company surfaced as a portfolio company of a16z, softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Improbable (Improbable Worlds Ltd) is a London-based technology company and venture builder. Founded in 2012, it originally built SpatialOS, a distributed simulation and networking platform for large-scale real-time multiplayer games, and later Morpheus / M² (MSquared), a network of interoperable metaverse worlds. Today Improbable operates primarily as a venture builder and capital allocator, partnering with founders to launch and scale companies across AI, Web3 and the metaverse. It is backed by Andreessen Horowitz (a16z) and the SoftBank Vision Fund. Its historical developer surface centered on the SpatialOS Platform SDK, Worker SDK and the `spatial` CLI (distributed via NuGet), plus the improbable-eng and spatialos GitHub organizations; the standalone documentation, status and IMS subdomains have since been retired as the company pivoted away from a standalone developer platform.
 
-Backed by: a16z, softbank-vision-fund
+**Areas:** Company · Venture Builder · Metaverse · Gaming · Simulation · Multiplayer · Web3 · Infrastructure · SDK · London
+
+## Improbable on APIs.io
+
+Everything profiled for Improbable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/improbable/](https://apis.io/providers/improbable/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Improbable Domain Security](https://apis.io/security/improbable/improbable-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.improbable.io/)
+- [Support](https://www.improbable.io/contact)
+- [Terms of service](https://www.improbable.io/terms-of-service)
+- [Privacy policy](https://www.improbable.io/privacy-policy)
+- [GitHub](https://github.com/improbable-eng)
+
+## API Evangelist rating
+
+**Kin Score 11.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/improbable/](https://apis.io/providers/improbable/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Improbable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/improbable/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
